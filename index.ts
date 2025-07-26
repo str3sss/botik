@@ -1,7 +1,6 @@
 import { Telegraf } from 'telegraf';
 import { message } from 'telegraf/filters';
 import { InferenceClient } from '@huggingface/inference';
-import 'dotenv/config';
 
 import { BOT_TOKEN, HF_API_TOKEN, MODEL_NAME } from './const.ts';
 
