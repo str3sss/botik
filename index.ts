@@ -2,7 +2,7 @@ import { Telegraf } from 'telegraf';
 import { message } from 'telegraf/filters';
 import { InferenceClient } from '@huggingface/inference';
 
-import { BOT_TOKEN, HF_API_TOKEN, MODEL_NAME } from './const.ts';
+import { BOT_TOKEN, HF_API_TOKEN, MODEL_NAME } from './const';
 
 const client = new InferenceClient(HF_API_TOKEN);
 
